@@ -1,0 +1,15 @@
+Given a string S, print it after changing the middle element to * (if the length of the string is even, change the 2 middle elements to *).
+INPUT
+hello
+OUTPUT
+he*lo
+
+
+
+
+s = input()
+d = len(s)//2
+if len(s)%2 == 1:
+    print(s[0:d]+'*'+s[d+1:])
+else:
+    print(s[0:d-1]+'**'+s[d+1:])
