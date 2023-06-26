@@ -1,0 +1,11 @@
+Given a string S, print it without using semicolon in your program.
+INPUT
+hello world
+OUTPUT
+hello worldINPUT
+
+
+
+
+a = input()
+print(a)
