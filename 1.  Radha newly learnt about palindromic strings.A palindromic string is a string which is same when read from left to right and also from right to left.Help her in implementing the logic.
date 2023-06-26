@@ -1,0 +1,15 @@
+ Radha newly learnt about palindromic strings.A palindromic string is a string which is same when read from left to right and also from right to left.Help her in implementing the logic.
+Sample Input :
+NITIN
+Sample Output :
+1
+
+
+
+
+a = input()
+if a == a[::-1]:
+    print(1)
+else:
+    print(0)
+ 
